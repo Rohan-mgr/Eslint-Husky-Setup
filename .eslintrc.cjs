@@ -16,5 +16,6 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'no-console': 'error', // for preventing console.log to commit
   },
 }
